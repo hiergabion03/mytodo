@@ -1,7 +1,10 @@
 const Todo = ({todo, toggleComplete, removeTodo}) => {
 
+ 
+
     const handleToggle=()=>{
         toggleComplete(todo.id);
+    
     }
 
     const handleDelete=()=>{
@@ -9,7 +12,7 @@ const Todo = ({todo, toggleComplete, removeTodo}) => {
     }
 
     return ( 
-    <div>
+    <div className="Todo">
         <input type="checkbox" onClick={handleToggle}/>
         <li style={{color: "black", textDecoration: todo.completed ? "line-through" : null}}>
             {todo.task}

@@ -11,3 +11,66 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App{
+ text-align: center;
+}
+
+.App h1{
+  position: relative;
+  left: 25px;
+  text-align: center;
+  border: 10px;
+  border-style: double;
+  border-radius: 10%;
+  border-color: rgb(2, 118, 250);
+  display: inline-block;
+ }
+
+ 
+
+
+.TodoForm{
+  display: block;
+  text-align: center;
+}
+
+form{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+
+
+.TodoForm button{
+  position: relative;
+  left: 20px;
+  background-color: rgb(48, 135, 250);
+  border-radius: 10%;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.Todo li{
+  display: inline-block;
+  width: 20%;
+}
+
+
+.Todo button {
+  background-color: rgb(250, 67, 67); /* Green */
+  border-radius: 20%;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+}

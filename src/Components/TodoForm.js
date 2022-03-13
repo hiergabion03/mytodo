@@ -25,11 +25,13 @@ const TodoForm = ({addTodo}) => {
     console.log(todo);
 
     return ( 
-       <form onSubmit={handleSubmit}>
+        <div className="TodoForm">
+       <form onSubmit={handleSubmit} >
            <input className="task" type="text"
            value={todo.task} onChange={handleInputChange}/>
            <button>Add</button>
        </form>
+       </div>
      );
 }
  
